@@ -1,4 +1,33 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
-.venv/
+*.py[cod]
 *.pyc
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Images
 *.png
+*.jpg
